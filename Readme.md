@@ -25,16 +25,20 @@
 
 ## ⚡ Usage
 ### 1. Install Illogical-impulse
-install = https://github.com/end-4/dots-hyprland
+
+- install = https://github.com/end-4/dots-hyprland
 
 ### 2. . Backup sebelum replace
-example = mv /to/path/.config/quickshell/  /to/path/.config/quickshell.Backup/
+
+- example = mv /to/path/.config/quickshell/  /to/path/.config/quickshell.Backup/
 
 ### 3. Replace all .config to your directory, If you use a network manager like in KDE or Gnome, please see [Tips Network Manager]
-example = cp /to/path/Downloads/quickshell/  /to/path/.config/quickshell/
----
+
+- example = cp /to/path/Downloads/quickshell/  /to/path/.config/quickshell/
+
 
 ## 🔧[TIPS ENABLE NETWORK]
+
 - Remove Folder quickshell/ii/modules/bar From the zip you get 🛠️
 - Or Replace modules bar default to quickshell custom 💡
 
