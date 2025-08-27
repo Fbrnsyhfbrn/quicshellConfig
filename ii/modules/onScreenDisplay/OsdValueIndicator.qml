@@ -21,7 +21,9 @@ Item {
     property real valueIndicatorLeftPadding: 10
     property real valueIndicatorRightPadding: 20 // An icon is circle ish, a column isn't, hence the extra padding
 
-    Layout.margins: Appearance.sizes.elevationMargin
+    Layout.margins: 0
+    Layout.leftMargin: 1350
+    Layout.topMargin:10
     implicitWidth: Appearance.sizes.osdWidth
     implicitHeight: valueIndicator.implicitHeight
 
@@ -66,7 +68,7 @@ Item {
                     Behavior on rotation {
                         animation: Appearance.animation.elementMoveEnter.numberAnimation.createObject(this)
                     }
-                
+
                 }
             }
             ColumnLayout { // Stuff
@@ -92,7 +94,7 @@ Item {
                         text: Math.round(root.value * 100)
                     }
                 }
-                
+
                 StyledProgressBar {
                     id: valueProgressBar
                     Layout.fillWidth: true
