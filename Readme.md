@@ -39,7 +39,7 @@
 
 ## 🔧[TIPS ENABLE NETWORK]
 
-- Remove Folder quickshell/ii/modules/bar From the zip you get 🛠️
+- Remove Folder quickshell/ii/modules/bar/network and quicshell/ii/modules/sidebar/* From the zip you get 🛠️
 - Or Replace modules bar default to quickshell custom 💡
 
 ---
